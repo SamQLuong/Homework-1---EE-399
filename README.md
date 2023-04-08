@@ -34,13 +34,13 @@ Figure 1: The best fit curve with a nonlinear equation
 
 The results for part ii requires the parameters from the previous part. Therefore, the fixed parameters are equal to the parameters from the first part of the assignment. Figure 2 shows the resulting 2D loss landscape graphs for each combination. The number of minima is shown by the darker blue areas because this number presents the error that is closer to the 0 value. Therefore, we can see that all but one graph has **one minima** execpt when we sweep the D an C value. There is two dark blue areas meaning that the number of **minima is two**.
 
-![Alt text]((https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/First%2020%20Training.jpg.png))
+![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/2D%20Landscape.jpg)
 
 Figrue 2: The 2D loss landscape of 6 combinations of 2 sweep parameters
 
 The results for part iii shows that the linear model is the best for the training data as least square error is the smallest number which is shown in the figure. The reason is that the line passes through the testing data points so the least square error is small. The parabola does not account for the testing data as the model starts to dip downward before the testing data. Therefore, the least square error is larger than the linear model. The 19th degree polynomial has a small least square error value for the training model but when we used the tested data, the least square error value is the largest out of the other models. The reason is that the fitting method for the training data has all the points connected together. However, the tested data is not included in the model so the error is large. Overall, the pattern is that the larger the degree is for the polynomial then the smaller the least square error because some models cannot predict the testing data. **All least square error values is in figure 3.**
 
-![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/First%2020%20Training.jpg)
+![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/First%2020%20Training.jpg.png)
 
 Figure 3: Training with the first 20 data points and testing with the last 10
 
