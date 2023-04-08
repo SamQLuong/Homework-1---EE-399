@@ -26,4 +26,12 @@ Lastly, the last two parts of the assignment requires us training the model with
 
 ## Section 4 - Computational Results 
 
-The results for part i shows a curve that is closely similar to the data points. 
+The results for part i shows a curve that is closely similar to the data points. According to the Figure 1, we can see that the red curve mostly matches with the data points. The parameters that fits the equation, f(x) = AcosBx + Cx + D, is **A = 2.17, B = 0.909, C = 0.732, and D = 31.45**.  
+
+![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/Curve%20Fit.jpg)
+
+Figure 1: The best fit curve with a nonlinear equation
+
+The results for part ii requires the parameters from the previous part. Therefore, the fixed parameters are equal to the parameters from the first part of the assignment. Figure 2 shows the resulting 2D loss landscape graphs for each combination. The number of minima is shown by the darker blue areas because this number presents the error that is closer to the 0 value. Therefore, we can see that all but one graph has **one minima** execpt when we sweep the D an C value. There is two dark blue areas meaning that the number of **minima is two**.
+
+![Alt text]()
