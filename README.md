@@ -34,7 +34,7 @@ Figure 1: The best fit curve with a nonlinear equation
 
 The results for part ii requires the parameters from the previous part. Therefore, the fixed parameters are equal to the parameters from the first part of the assignment. Figure 2 shows the resulting 2D loss landscape graphs for each combination. The number of minima is shown by the darker blue areas because this number presents the error that is closer to the 0 value. Therefore, we can see that all but one graph has **one minima** execpt when we sweep the D an C value. There is two dark blue areas meaning that the number of **minima is two**.
 
-![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/2D%20Landscape.jpg)
+![Alt text]((https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/First%2020%20Training.jpg.png))
 
 Figrue 2: The 2D loss landscape of 6 combinations of 2 sweep parameters
 
