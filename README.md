@@ -34,4 +34,20 @@ Figure 1: The best fit curve with a nonlinear equation
 
 The results for part ii requires the parameters from the previous part. Therefore, the fixed parameters are equal to the parameters from the first part of the assignment. Figure 2 shows the resulting 2D loss landscape graphs for each combination. The number of minima is shown by the darker blue areas because this number presents the error that is closer to the 0 value. Therefore, we can see that all but one graph has **one minima** execpt when we sweep the D an C value. There is two dark blue areas meaning that the number of **minima is two**.
 
-![Alt text]()
+![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/2D%20Landscape.jpg)
+
+Figrue 2: The 2D loss landscape of 6 combinations of 2 sweep parameters
+
+The results for part iii shows that the linear model is the best for the training data as least square error is the smallest number which is shown in the figure. The reason is that the line passes through the testing data points so the least square error is small. The parabola does not account for the testing data as the model starts to dip downward before the testing data. Therefore, the least square error is larger than the linear model. The 19th degree polynomial has a small least square error value for the training model but when we used the tested data, the least square error value is the largest out of the other models. The reason is that the fitting method for the training data has all the points connected together. However, the tested data is not included in the model so the error is large. Overall, the pattern is that the larger the degree is for the polynomial then the smaller the least square error because some models cannot predict the testing data. **All least square error values is in figure 3.**
+
+![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/First%2020%20Training.jpg)
+
+Figure 3: Training with the first 20 data points and testing with the last 10
+
+The results for part iv shows that the linear model is also the best model to use for least square error. The reason that the least square error is smaller than part 
+iii because we can predict the location from the first 10 data points and the last 10 data points and whatever is in the moddle can have a smaller least square error compared to predicting where the last 10 is from the previous part. The parabola model has a smaller least square error for the testing data then the training data is because the model passes through the middle parts of the data but doesn't pass through the last 10 data points of the training data.
+The 19th degree polynomial's least square error is better than the previous part because the model passes through the middle portion with a linear line and the least square error is small for the testing data. Overall, the linear, parabola, and 19th degree polynomial has a better least square error for the testing data than the previous part because the data in the middle can be easily be fit with a model becasue the data is in a linear pattern. **All least square error values is in figure 4**.
+
+![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/10%20by%2010.jpg)
+
+Figure 4: Training with the first 10 and last 10 data points and testing with the middle 10
