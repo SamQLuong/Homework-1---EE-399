@@ -32,7 +32,13 @@ The results for part i shows a curve that is closely similar to the data points.
 
 Figure 1: The best fit curve with a nonlinear equation
 
-The results for part ii requires the parameters from the previous part. Therefore, the fixed parameters are equal to the parameters from the first part of the assignment. Figure 2 shows the resulting 2D loss landscape graphs for each combination. The number of minima is shown by the darker blue areas because this number presents the error that is closer to the 0 value. Therefore, we can see that all but one graph has **one minima** execpt when we sweep the D an C value. There is two dark blue areas meaning that the number of **minima is two**.
+The results for part ii requires the parameters from the previous part. Therefore, the fixed parameters are equal to the parameters from the first part of the assignment. Figure 2 shows the resulting 2D loss landscape graphs for each combination. The number of minima is shown by the darker blue areas because this number presents the error that is closer to the 0 value. 
+Therefore, we can see that by sweeping D and C, we can see that there are several points in the graph that are near 0. Due to the visibility of the coloring, we can barely see that there are about 4 areas that are dark purple. This means that there are **4 minimas**. 
+Next, the graph for sweeping A and D, we can see that at a some range of A, any number for D can the value. In this case, we sweep D between 20 to 40 with 10 equal segments. The fixed value of D was 31.45 and the range between shows that the number of minimas is large. In this case, we can see about **4 to 5 minimas** with our given range.
+The A and B sweeping landscape also shows a similar response where the locations of minimas is concentrated in a certain location but can be any value in that area. In this case, we can see about **3 to 4 minimas** for this graph.
+The B and C sweeping landscape shows a more senssitive sweeping. In this case, we can clearly see **2 minimas* in the middle of the landscape. The surronding areas are clearly lighter colors compared to the two points in the graph. 
+The B and D sweeping landscape shows a similar pattern with B and C, however, the colors are a lot more darker compared to B and C. In this case, we can see roughly **2 to 3 minimas**
+Finally, for the A and C sweeping landscape, we can see that the dark purple patterns are similar to A and D. In this case, the minimas are concentrated in a line where any of these values can be use to produce a low least square error. Therefore, the number of minimas roughly shown in this landscape is **4 to 6 minimas**.
 
 ![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/2D%20Landscape.jpg)
 
