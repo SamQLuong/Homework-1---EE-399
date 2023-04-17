@@ -62,3 +62,7 @@ The 19th degree polynomial's least square error is better than the previous part
 ![Alt text](https://github.com/Griffinhunter/Homework-1---EE-399/blob/main/10%20by%2010.jpg)
 
 Figure 4: Training with the first 10 and last 10 data points and testing with the middle 10
+
+## Section 5 - Conclusion
+
+Overall, we can see that modeling nonlinear can be done by guessing the parameters and changing it little by little to match the data set. Also, testing with different models can change the overall error loss based on the type of model. The more degrees you used the less accurate the model can be. The type of data we use also effects the overall accuracy of the model. For testing the last 10 data points, we get more east square erro then the testing the middle 10 of the data set. This is because we can fill in the blanks in the middle more easily then the last 10 data points. 
